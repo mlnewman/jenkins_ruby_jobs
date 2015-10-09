@@ -1,0 +1,1 @@
+#!/bin/bash # Fail on any error set -e # Remove the old zip file rm -f infrastructure.zip # Rename the production infrastructure yaml - TODO need to parameterize the deploy process mv infrastructure/hrrefguide.dev-a.yaml infrastructure/infrastructure.yaml # Zip 'er up... zip -r infrastructure.zip infrastructure

@@ -1,0 +1,10 @@
+username: 'afrorails'
+password: 'afrorails'
+host:     'aws.sample.com'
+jobs:
+  -
+    name:         'Test App'
+    scm_provider: 'git'
+    scm_url:      'git://github.com/apraditya/sampleapp.git'
+    scm_branch:   'master'
+    shell_script: 'hello world'
